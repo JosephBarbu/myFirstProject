@@ -8,6 +8,7 @@ p {
     color: white;
 }
 body {
+
     background-image: url("https://media.giphy.com/media/11zXXm1lsoXCes/giphy.gif");
     background-repeat: no-repeat;
     background-size: 1675px 1180px;
@@ -16,4 +17,17 @@ body {
 .Joseph{
   color:HotPink;
 
+}
+
+.border{
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+
+img {
+    border-radius: 50%;
+}
+h1 {
+    text-shadow: 2px 2px;
 }
