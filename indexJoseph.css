@@ -1,24 +1,34 @@
+
 body {
 
-}
-}
-p {
-    font-family: verdana;
-    font-size: 20px;
-    color: white;
-}
-body {
-
-    background-image: url("https://media.giphy.com/media/11zXXm1lsoXCes/giphy.gif");
+    background-image: url("http://pa1.narvii.com/6432/cafc30922ba83895b9a08071e44c19a82885abcf_hq.gif");
     background-repeat: no-repeat;
     background-size: 1675px 1180px;
+
 }
 
 .Joseph{
-  color:HotPink;
+  position: relative;
+  text-align: center;
 
 }
 
+.paragraph{
+  color:white;
+  background-color: grey;
+  font-size: 20px;
+  border: 2px dotted white;
+  line-height: 50px;
+
+
+}
+.memes{
+  color:HotPink;
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
 .border{
   display: block;
   width: 100%;
@@ -29,5 +39,8 @@ img {
     border-radius: 50%;
 }
 h1 {
+    font-size: 36px;
+    text-align:center;
     text-shadow: 2px 2px;
+    margin-bottom:50px;
 }
